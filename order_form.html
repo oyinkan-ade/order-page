@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <link rel="stylesheet" href="order.css">
+        <title>Order</title>
+    </head>
+
+    <body>
+        <div class="container">
+
+            <div class="form-container">
+                <form action="" method="POST">
+
+                    <fieldsets>
+        
+                        <legend class="bold-30">Order Page of a delivery web page...</legend>
+        
+                        <fieldset class="pick-up">
+        
+                            <br><br>
+             
+                            <legend class="bold-20">Pick-up</legend>
+            
+                            <label for="name">Name:</label><br>
+                            <input type="text" name="name" value="" placeholder="name"/>    
+                            <br><br>
+            
+                            <label for="phone number">Phone number:</label><br>
+                            <input type="tel" name="phonenumber" value="" placeholder="phonenumber"/>
+                            <br><br>
+            
+                           <label for="email">Email:</label><br>    
+                           <input type="email" name="email" value="" placeholder="email"/>
+                            <br><br>
+            
+                           <label for="dropoff-address">Address:</label><br>
+                           <input type="text" name="address" value="" placeholder="Address"/>
+                           <br><br>
+            
+                           <label for="dropoff-address">City:</label><br>
+                           <input type="text" name="city" value="" placeholder="City"/>
+                           <br><br>
+            
+                           <label for="dropoff-address">Country:</label><br>
+                           <input type="text" name="country" value="" placeholder="Country"/>
+                           <br><br>
+            
+                           <label for="dropoff-address">Zip code:</label><br>    
+                            <input type="number" name="zipcode" value="" placeholder="Zip code"/>
+                            <br><br>
+        
+                            <label for="additional-comments">additional comment:</label><br>
+                           <textarea name ="additonalcomments" rows="10" cols="30"></textarea>
+            
+                        </fieldsets>
+            
+        
+                        <br><br>
+                        <hr>
+                        
+                        <fieldset class="drop-off">
+                        <br><br>    
+                        <legend class="bold-20">Drop-Off</legend>
+        
+                        <label for="dropoff-address">Address:</label><br>
+        
+                        <input type="text" name="address" value="" placeholder="Address"/>
+        
+                        <br><br>
+        
+                        <label for="dropoff-address">City:</label><br>
+        
+                        <input type="text" name="city" value="" placeholder="City"/>
+        
+                        <br><br>
+        
+                        <label for="dropoff-address">Country:</label><br>
+        
+                        <input type="text" name="country" value="" placeholder="Country"/>
+        
+                        <br><br>
+        
+                        <label for="dropoff-address">Zip code:</label><br>
+        
+                        <input type="number" name="zipcode" value="" placeholder="Zip code"/>
+        
+                        <br><br>
+        
+                        <label for="order-type">Order type:</label><br>
+        
+                        <select name="order-type">
+        
+                            <option value="food">Food</option>
+        
+                            <option value="clothing">Clothing</option>
+        
+                            <option value="flowers">Flowers</option>
+        
+                            <option value="others">Others</option>
+        
+                        </select>
+        
+                        <br><br>
+        
+                        <label for="quantity">Quantity:</label><br>
+        
+                        <input type="number" name="quantity" value="0" />
+        
+                        <br><br>
+        
+                        <label for="dimension">Dimension:</label><br>
+        
+                        <input type="radio" name="dimension" value="small"><span>Small</span>
+        
+                        <input type="radio" name="dimension" value="medium"><span>Medium</span>
+                        <input type="radio" name="dimension" value="big"><span>Big</span>
+                        <input type="radio" name="dimension" value="others"><span>Others</span>
+                        
+        
+                        <br><br>
+        
+                        <label for="total-price">Total Price:</label><br>
+        
+                        <input type="number" name="total-price" value="" placeholder="0"/>
+        
+                        <br><br>
+        
+                        <label for="payment-method">Payment method:</label><br>
+        
+                        <select name="payment-method">
+        
+                            <option value="Cash">Cash</option>
+        
+                            <option value="Card">Card</option>
+        
+                        </select>
+                        <br><br>
+        
+                        <input type="button" name="submit" value="Submit">
+        
+                    </fieldset>
+                    
+                </form>
+        
+    
+            </div>
+
+            
+        </div>
+    </body>
+
+</html>

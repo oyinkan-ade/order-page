@@ -1,0 +1,80 @@
+body{
+    margin:auto;
+    width: 100%;
+    font-family: sans-serif;
+    /* background-color: #f8f4e5; */
+    background-image: url(images/undraw_deliveries_131a.png);
+  }
+
+  .container{
+    background-color: rgba(19, 2, 2, 0.788);
+  }
+
+  .form-container{
+    width: 45%;
+    margin: auto;
+  }
+ 
+ .bold-30{
+  margin: 10px;
+font-size: 30px;
+color: rgb(72, 117, 72);
+ }
+
+ .bold-20{
+  margin: 10px;
+  font-size: 20px;
+  color: rgb(72, 117, 72);
+ }
+
+
+input[type=text],input[type=email],input[type=tel],input[type=number], select {
+    width:90%;
+    padding: 6px;
+    border: none;
+    border: 1px solid rgb(72, 117, 72);
+    border-radius: 2px;
+  }
+  
+  textarea{
+    width: 90%;
+    margin-top: 10px;
+    padding: 5px;
+    border: none;
+    border: 1px solid rgb(72, 117, 72);
+    border-radius: 2px;  
+  }
+
+input[type=radio]{
+    color: green;
+}
+
+input[type=button]{
+    color: green;
+    font-size: 15px;
+    padding: 10px 15px;
+    background-color: #102c1e;
+    color: white;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+span{
+  color: whitesmoke;
+}
+
+
+
+label {
+    padding: 12px 12px 12px 0px;
+    display: inline-block;
+    color: whitesmoke;
+  }
+ 
+  hr{
+    width:97%;
+    text-align:left;
+    margin-left:0;
+    /* border: rgb(72, 117, 72); */
+  }
